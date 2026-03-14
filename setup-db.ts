@@ -35,7 +35,7 @@ async function setupDatabase() {
         console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n')
 
         console.log('1️⃣  Open Supabase Dashboard:')
-        console.log(`    https://supabase.com/dashboard/project/${supabaseUrl.split('//')[1].split('.')[0]}\n`)
+        console.log(`    https://supabase.com/dashboard/project/${supabaseUrl!.split('//')[1].split('.')[0]}\n`)
 
         console.log('2️⃣  Navigate to SQL Editor (left sidebar)\n')
 
